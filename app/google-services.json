@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "613418316312",
+    "project_id": "fir-newapp-6b59d",
+    "storage_bucket": "fir-newapp-6b59d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613418316312:android:d31a723058ab2f179fc96d",
+        "android_client_info": {
+          "package_name": "com.example.contactappfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1CbgGSJKdPzqzvfMi1zKYfV-dFMuR9iM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

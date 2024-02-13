@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    tools:context=".AddInformationActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="81dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_insert_photo_24" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/EmailEditLayout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="70dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/NameEdit"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Patient Name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/PasswordEditLayout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="70dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/AgeEdit"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Patient Age" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/DiseaseEditLayout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="70dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/DiseaseEdit"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Patient Disease" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ContactEditLayout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="70dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/contactEdit"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Patient Contact" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/DoneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="155dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Done"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
